@@ -295,6 +295,7 @@ class _UserSignAttendanceListWidgetTeacherState
                   Text('Phone: ${user.userId.phone}'),
                   Text('Email: ${user.userId.email}'),
                   Text('Reg Number: ${user.userId.regNo}'),
+                  Text('Distance: ${user.distance ?? 0} Meters'),
                   Text('Sign At: ${user.createdAt}'),
                 ],
               ),
